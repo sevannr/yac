@@ -1,11 +1,11 @@
 {
-  "name": "reselect-redux",
+  "name": "practica1",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -29,8 +29,14 @@
     ]
   },
   "devDependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "firebase": "^6.0.0",
+    "json-server": "^0.14.2",
     "react-redux": "^7.0.3",
+    "react-router-dom": "^5.0.0",
     "redux": "^4.0.1",
-    "reselect": "^4.0.0"
+    "redux-thunk": "^2.3.0"
   }
 }

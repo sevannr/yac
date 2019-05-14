@@ -1,17 +1,15 @@
 import React from 'react';
-import { Provider } from 'react-redux';
+import './App.css';
 
-// Store
-import store from './store';
+// Router
+import Router from './components/Router';
 
-// Components
-import Cart from './Cart';
-
-const App = () => (
-  <Provider store={store}>
-    <div> Proyecto del Carinho </div>
-    <Cart />
-  </Provider>
-)
+function App() {
+  return (
+    <div className="App">
+      <Router />
+    </div>
+  );
+}
 
 export default App;
